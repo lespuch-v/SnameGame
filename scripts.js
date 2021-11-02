@@ -54,7 +54,7 @@ function startGame() {
   //re add new score to browser
   scoreDisplay.textContent = score
   direction = 1
-  intervalTime = 1000
+  intervalTime = 900
   generateApple()
   //readd the class of snake to our new currentSnake
   currentSnake.forEach((index) => squares[index].classList.add("snake"))
