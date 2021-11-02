@@ -3,7 +3,7 @@
 Classic game from the old times! I used to love playing snake game on Nokia 3210 and now I managed to create that classic & awesome game!
 
 <h1>Check out GitHubPages -> </h1>
-<h4>Tachnologies used:</h4>
+<h2>Tachnologies used:</h2>
 <ul>
   <li>
     JavaScript
