@@ -2,7 +2,7 @@
 
 Classic game from the old times! I used to love playing snake game on Nokia 3210 and now I managed to create that classic & awesome game!
 
-<h1>Check it out GitHubPages ➡️ https://lespuch-v.github.io/SnameGame/</h1>
+<h2>Check it out GitHubPages ➡️ https://lespuch-v.github.io/SnameGame/</h2>
 <h4>Tachnologies used:</h4>
 <ul>
   <li>
