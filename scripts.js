@@ -14,7 +14,7 @@ let direction = 1
 const sirka = 20 // with of the square
 let appleIndex = 0
 let score = 0
-let intervalTime = 1000
+let intervalTime = 900
 let speed = 0.4
 let timerId = 0
 
