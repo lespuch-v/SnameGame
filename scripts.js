@@ -14,7 +14,7 @@ const emojis = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🍎", 
 
 
 let squares = []
-let currentSnake = [2, 1, 0] // Starting position of the snake
+let currentSnake = [10, 9, 8]// Starting position of the snake
 let direction = 1
 const sirka = 20 // with of the square
 let appleIndex = 0
@@ -54,7 +54,7 @@ function startGame() {
   //remove the apple
   squares[appleIndex].classList.remove("apple")
   clearInterval(timerId)
-  currentSnake = [2, 1, 0]
+  currentSnake = [10, 9, 8]
   score = 0
   //re add new score to browser
   scoreDisplay.textContent = score
