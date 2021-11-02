@@ -8,6 +8,11 @@ const playerName2 = document.getElementById("playerName2")
 const gameOverModal = document.querySelector(".modal-gaveOver")
 const btnCloseGameOver = document.getElementById("btn-closeGameOver")
 
+
+const emojis = ["🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🍎", "🍏", "🍒", "🍓", "🥝", "🍅", "🥥", "🥦", "🧄", "🍄", "🥐", "🧀"]
+
+
+
 let squares = []
 let currentSnake = [2, 1, 0] // Starting position of the snake
 let direction = 1
@@ -15,7 +20,7 @@ const sirka = 20 // with of the square
 let appleIndex = 0
 let score = 0
 let intervalTime = 900
-let speed = 0.4
+let speed = 0.9
 let timerId = 0
 
 // localStorage
@@ -109,6 +114,8 @@ function move() {
 }
 
 function generateApple() {
+    let randomFood = emojis[Math.floor(Math.random() * emojis.length)]
+
   do {
     appleIndex = Math.floor(Math.random() * squares.length)
   } while (squares[appleIndex].classList.contains("snake"))
@@ -156,3 +163,4 @@ restartBtn.addEventListener("click", function(){
 btnCloseGameOver.addEventListener("click", function(){
   gameOverModal.style.display = "none"
 })
+
