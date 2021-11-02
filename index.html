@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <title>SnakeGame</title>
+  </head>
+  <body>
+    <div class="body-container">
+      <main class="mainContainer">
+        <div class="modal-start">
+          <h1 class="headingOne">Welcome to the Snake Game!</h1>
+          <label for="inputField"
+            >What is your <span class="namePlayer">name</span>?</label
+          ><br />
+          <input type="text" id="inputField" name="fname" /><br /><br />
+          <button id="start">Play Snake!</button>
+        </div>
+        <div class="modal-gaveOver">
+          <h2>Game Over!</h2>
+          <h2 id="playerName2">Player</h2>
+          <h2 class="score">Score: <span id="score2"></span></h2>
+          <button id="btn-closeGameOver">Close!</button>
+        </div>
+        <div class="gameContainer">
+          <section class="startingSection">
+            <h1 class="gradient-text">Snake Game</h1>
+            <button id="restart">Restart</button>
+          </section>
+          <h2 id="playerName">Player</h2>
+          <h2 class="score">Score: <span id="score"></span></h2>
+          <div class="grid"></div>
+          <script src="scripts.js"></script>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
